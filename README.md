@@ -26,6 +26,27 @@ dotnet add package SuperSimpleExcel
 ### Generating an Excel File
 Here's a simple example of how to generate an Excel file:
 
+
+```csharp
+ public class StudentModel
+ {
+     [HeaderTemplate("Student Id")]
+     public Guid Id { get; set; }
+
+     [HeaderTemplate("First name")]
+     public string FirstName { get; set; }
+
+     [HeaderTemplate("Last name")]
+     public string LastName { get; set; }
+
+     [HeaderTemplate("Email")]
+     public string Email { get; set; }
+
+     [HeaderTemplate("Year of Birth")]
+     public int? YoB { get; set; }
+ }
+```
+
 ```csharp
 using (var stream = await SimpleExcelFactory.CreateInstance().ExportExcelAsync(new SimpleExcel.Models.ExportTemplateSetting<StudentModel>
 {
