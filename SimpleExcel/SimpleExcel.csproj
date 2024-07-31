@@ -1,12 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageId>SuperSimpleExcel</PackageId>
-		<Version>1.0.0</Version>
-		<Authors>YourName</Authors>
+		<Version>1.0.1</Version>
+		<Authors>Hai Pham</Authors>
 		<Description>A simple library for Excel operations.</Description>
 		<PackageTags>Excel;Simple</PackageTags>
 		<RepositoryUrl>https://github.com/haiplk/simple-excel</RepositoryUrl>

@@ -2,7 +2,7 @@
 
 Super Simple Excel is a lightweight .NET library for generating and reading Excel files with minimal settings, designed to keep things simple and straightforward. The library is based on OpenXML and supports .NET 8.
 
-[![Buy Me a Coffee](./imgs/buymecoffee.png)](https://www.buymeacoffee.com/lJ7PtoK)
+[![Buy Me a Coffee](https://www.buymeacoffee.com/lJ7PtoK)
 
 
 ## Features
