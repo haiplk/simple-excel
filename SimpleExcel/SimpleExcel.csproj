@@ -9,11 +9,13 @@
 		<Description>A simple library for Excel operations.</Description>
 		<PackageTags>Excel;Simple</PackageTags>
 		<RepositoryUrl>https://github.com/haiplk/simple-excel</RepositoryUrl>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 	</PropertyGroup>
-
+	<ItemGroup>
+		<None Include="../LICENSE.md" Pack="true" Visible="true" PackagePath="" />
+		<None Include="../README.md" Pack="true" Visible="true" PackagePath="" />
+	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />
 	</ItemGroup>
