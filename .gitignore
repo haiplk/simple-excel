@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/SimpleExcel
+/SimpleExcel/bin/Debug/net8.0
+/SimpleExcel/obj
+/SimpleExcelConsole/bin/Debug/net8.0
+/SimpleExcelConsole/obj
